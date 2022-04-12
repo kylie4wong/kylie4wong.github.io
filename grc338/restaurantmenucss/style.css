@@ -41,7 +41,7 @@ h3 {
 	color: rgb(172,50,43);
 	font-weight: 600;
 	text-transform: uppercase;
-	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	letter-spacing: 0.1em;
 	border-top: 0.75mm solid;
 }
 
