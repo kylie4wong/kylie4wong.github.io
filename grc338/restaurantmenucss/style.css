@@ -1,68 +1,68 @@
 /*CSS document*/
 
-/* Replace this whole line 3 with my version of Eric Meyer’s reset tool.*/
-
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;}
 body {
-	background-color: rgb(155, 133, 168); /* Not totally white. */
+	background-color: rgb(255, 251, 250); /* Not totally white. */
 	color: rgb(3, 0, 0);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
 
 h1 {
-	background-color: rgb(164, 165, 166);
-	color: rgb(255, 251, 250); /* Same as body background. */
-	font-size: 2em;
-	padding: 1rem 3rem 0.5rem; /* You want three values. */
-	font-weight: 600em;
+	background-color: rgb(155, 153, 168);
+	color: rgb(255, 255, 250); /* Same as body background. */
+	font-size: 3em;
+	padding: 2rem 2rem 0.5rem; /* You want three values. */
+	font-weight: 800;
 	text-transform: uppercase;
 }
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
-	font-family: sans-serif;
+	font-family: serif;
 	font-style: italic;
 	font-weight: 400;
 	text-transform: lowercase;
 }
 
 h2 {
-	background-color: rgb(164, 165, 166);
-	color: rgb(255, 251, 250);
-	font-size: 3rem;
-	padding: 1rem 0.5rem 0.5rem;
+	background-color: rgb(155, 153, 168);
+	color: rgb(255, 255, 250);
+	font-size: 2.25rem;
+	padding: 2rem 2rem 2rem;
 	font-family: serif;
 	font-weight: 700;
 }
 
 h3 {
-	margin: 1rem 1rem 1rem; /*Three values again. You got the idea.*/
-	padding-top: 3rem;
+	margin: 3rem 1.5rem 2rem; /*Three values again. You got the idea.*/
+	padding-top: 0.5rem;
 	font-size: 1.5em;
-	color: rgb(169,50,43);
-	font-weight: 700;
+	color: rgb(172,50,43);
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: 5em 5em 5em 5em;
+	border-top: 0.75mm solid;
 }
 
 h4 {
 	font-weight: 600;
+    padding: 1rem 1rem 0.5rem;
 }
 
 p.description {
 	font-style: italic;
+    padding: 0.01rem 1rem 0.5rem;
 }
-
 p.price {
-	color: rgb (169,50,43);
+	color: rgb(172,50,43);
+    padding: 0.01rem 1rem 0.5rem;
 }
 
 ul {
-	margin: 1rem 1rem 1rem;
+	margin: 1rem 0.5rem 0.5rem;
 }
 
 li { 
-	margin: 1rem 1rem 1rem;
+	margin:  1rem 0.5rem 0.5rem;
 }
- 
