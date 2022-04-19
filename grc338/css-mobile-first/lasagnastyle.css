@@ -1,74 +1,86 @@
 /*CSS DOCUMENT*/
+
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
 body 
 {
-img {
-width: 100%; /*Please leave this line.*/
-}
+
 h1
 {
-background-color: rgb(255, 140, 0); 
-color: rgb(250,250,250); 
-padding: 3rem 2rem 1rem;
-line-height: 120%; 	/* A little extra leading. */
-font-family: Sutro, serif;  
-font-size: 2.7em;
-font-weight: 700;  
-font-style: bold;}
+    background-color: rgb(255, 140, 0); 
+	color: rgb(250,250,250); 
+    padding: 3rem 2rem 1rem;
+	line-height: 120%; 	/* A little extra leading. */
+    font-family: Sutro, serif;  
+	font-size: 2.7em;
+    font-weight: 700;  
+    font-style: bold;}
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
 h2
 {   background-color: rgb(255, 140, 0); 
-color: rgb(249,221,191); 
-padding: .01rem 2rem 1rem;
-font-family: Sutro, serif;  
-font-size: 1.7em;
-font-weight: 300;  
-font-style: normal;
+	color: rgb(249,221,191); 
+    padding: .01rem 2rem 1rem;
+    font-family: Sutro, serif;  
+    font-size: 1.7em;
+    font-weight: 300;  
+    font-style: normal;
 }
+
 figcaption
 {
-padding: 1rem 1rem 2rem;
-line-height: 160%; 
-font-family: poppins, sans-serif;  
-font-weight: 400;  
-font-style: italic;
+    padding: 1rem 1rem 2rem;
+    line-height: 160%; 
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
 }
+
 h3{
-padding: 0.5rem 1rem 0.01rem 2.5rem;
-color: rgb(255, 140, 0);
-font-family: Sutro, serif; 
-letter-spacing: .1em;
-font-size: 1.25em; 
-text-transform: uppercase;
-font-weight: 300;  
-font-style: normal;
+    padding: 0.5rem 1rem 0.01rem 2.5rem;
+    color: rgb(255, 140, 0);
+    font-family: Sutro, serif; 
+    letter-spacing: .1em;
+    font-size: 1.25em; 
+    text-transform: uppercase;
+    font-weight: 300;  
+    font-style: normal;
 }
+
 li{
-display:list-item;
-padding: 0.5rem 0.1rem 0.5rem 1rem;
-font-size: 1rem;
-font-family: poppins, sans-serif;  
-font-weight: 400;  
-font-style: normal;
+    display:list-item;
+    padding: 0.5rem 0.1rem 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
 }
+
 ul{
-margin: 1em;
-padding: 0.5rem 0.1rem 0.5rem 1rem;
+    margin: 1em;
+    padding: 0.5rem 0.1rem 0.5rem 1rem;
 }
+
 ol{
-margin: 0.8rem;
-padding: 0.5rem 0.1rem 0.2rem 1rem;
+    margin: 0.8rem;
+    padding: 0.5rem 0.1rem 0.2rem 1rem;
 }
+
 footer{
-background-color: rgb(255, 140, 0);
-padding: 2.5%;
+    background-color: rgb(255, 140, 0);
+    padding: 2.5%;
 }
+
 p{
-color: rgb(249,221,191); 
-font-family: poppins, sans-serif;  
-font-weight: 400;  
-font-style: normal;
-footer{
-background-color: rgb(255, 140, 0);
-padding: 2.5%;
+	color: rgb(249,221,191); 
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+
+    footer{
+    background-color: rgb(255, 140, 0);
+    padding: 2.5%;
 }
 }
