@@ -22,7 +22,7 @@ font-style: normal;
 font-size: 1.4rem;
 text-transform: uppercase;
 letter-spacing: 0.05rem;
-padding-right: 2rem; 
+padding: 0 2rem 0 1.75rem; 
 }
 nav ul li a {
 color: #222222;
@@ -75,8 +75,8 @@ background: #fafafa;
 }
 
 footer {
-    background: #fafafa;
-    padding-top: 3rem;
+background: #fafafa;
+padding: 3rem 2rem 0 1.75rem; 
 }
 
 ul.products li {
