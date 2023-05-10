@@ -1,0 +1,101 @@
+/*CSS document*/
+
+body {
+    background-color: linen;
+    color: black;
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+figcaption {
+    font-family: "larken", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: auto;
+}
+
+img {
+    width: 100%; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-family: "larken", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    width: 35%;
+}
+
+h2 {
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* attention! */
+.navbar { 
+    width: 100%;
+    font-family: "larken", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-family: "larken", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    display: block;
+}
+.navbar li a {
+    display: inline;
+}
+
+p {
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+    overflow: auto;
+    color: black;
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+}
